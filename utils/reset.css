@@ -1,0 +1,43 @@
+body,h1,h2{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+img{
+    vertical-align: top;
+}
+
+button{
+    outline: none;
+}
+&::-webkit-scrollbar {
+    display:none ;
+  } 
+  .ant-message-notice-content{
+    position: absolute;
+    top: 92vh;
+    left: 77.5vw;
+    width: 24vw;
+    line-height: 21px;
+    transform:translateX(-50%);
+    text-align: center;
+    background-color:transparent !important;
+    font-size: 20px;
+   z-index: 99;
+    }
+    :where(.css-dev-only-do-not-override-1hpnbz2).ant-message .ant-message-notice-wrapper .ant-message-notice-content {
+    background-color:transparent !important;
+    box-shadow: none !important;
+    }
+    :where(.css-dev-only-do-not-override-1hpnbz2).ant-message {
+        color: red;
+    }
